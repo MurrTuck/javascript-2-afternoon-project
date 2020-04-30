@@ -18,7 +18,7 @@
 
 let me = {
   name: 'Murray',
-  age: 'age',
+  age: 34,
 }
 
 alert(me.name)
@@ -87,6 +87,7 @@ let backPack = {
 var item = 'firstPocket'
 
 backPack['firstPocket'] = 'chapstick'
+backPack.color = 'Red'
 
 // console.log(backPack)
 console.log(item)
