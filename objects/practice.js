@@ -58,10 +58,10 @@ var family = ['Tyler', 'Jordyn', 'Ryan', 'Chelsey', 'Ireland'];
 
 //Code Here
 
-function looper(family) {
-  for (i = 0; i < family.length; i++) {
+function looper(arrFamily) {
+  for (i = 0; i < arrFamily.length; i++) {
     // console.log('The iterator is ' + i)
-    alert(family[i])
+    alert(arrFamily[i])
   }
 }
 
@@ -106,7 +106,9 @@ function evenFinder(nums) {
   let evenArr = []
   for (let i = 0; i < nums.length; i++) {
     console.log(i)
-    if (nums[i] % 2 === 0) evenArr.push(nums[i])
+    if (nums[i] % 2 === 0) {
+      evenArr.push(nums[i])
+    }
   }
   return evenArr
 }
